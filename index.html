@@ -7,14 +7,15 @@
     <title>Guess the number</title>
   </head>
   <body>
-    <section>
+    <section id="main_section">
       <h1>Guess the number</h1>
       <p>Think of a number from 1 to 100</p>
 
-      <form action="">
-        <input type="text" name="" />
-        <button type="submit">submit</button>
+      <form action="" onsubmit="handleInput(event)">
+        <input type="text" name="" id="input" />
+        <button type="submit" onclick="" id="submit">submit</button>
       </form>
+      <div id="result" class="result"></div>
     </section>
     <script src="./index.js"></script>
   </body>
